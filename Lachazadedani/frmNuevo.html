@@ -1,0 +1,21 @@
+<html>
+	<title>Registro</title>
+	<br/><br/>
+	<body>
+		<body background="img/CANDY.jpg"> </body>
+		<center> <img  src="img/logo.jpg" class="img-rounded" /> 
+		<CENTER><img border="0" src="img/insertar.png" width="500" height="100"></center>
+		<form name="f1" method ="POST" action="producto/buscarInsertar.php">
+			<FONT FACE="arial" SIZE=5 COLOR=black>Codigo:</FONT><input type="number" name="txtCod" placeholder="Codigo del producto" autofocus required /><br/>
+			<FONT FACE="arial" SIZE=5 COLOR=black>Nombre:</FONT><input type="text" name="txtNom" placeholder="Nombre del producto" autofocus required /><br/>
+			<FONT FACE="arial" SIZE=5 COLOR=black>Descripcion:</FONT><input type="text" name="txtDes" placeholder="Descripcion del producto" autofocus required /><br/>
+			<FONT FACE="arial" SIZE=5 COLOR=black>Valor:</FONT><input type="number" name="txtVal" placeholder="Valor del producto" autofocus required /><br/>
+			<input type="submit" name="INSERTAR" onclick="validar()"/>
+		</form>
+			<div id="escondido"></div>
+			<a href="inicio.html">
+		<img border="0" src="img/Flecha.jpg" width="100" height="100">
+		</a>
+		</center>
+	</body>
+</html>
